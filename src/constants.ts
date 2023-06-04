@@ -1,4 +1,7 @@
-export const bgColors = ['#a5a6a7', '#6aaa64', '#c9b458', '#3e3e42'];
+export const bgColors = ['#a5a6a7', '#3e3e42', '#c9b458', '#6aaa64'];
+// black 3e3e42
+// gold c9b458
+// green 6aaa64
 
 export const vowels = ['a', 'e', 'i', 'o', 'u'];
 export const consonants = [
