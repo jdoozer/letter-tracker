@@ -12,13 +12,17 @@ function App() {
       </header>
       <main>
         <h2>Vowels</h2>
-        {vowels.map((letter) => (
-          <Letter letter={letter} key={letter + resetKey} />
-        ))}
+        <div>
+          {vowels.map((letter) => (
+            <Letter letter={letter} key={letter + resetKey} />
+          ))}
+        </div>
         <h2>Consonants</h2>
-        {consonants.map((letter) => (
-          <Letter letter={letter} key={letter + resetKey} />
-        ))}
+        <div>
+          {consonants.map((letter) => (
+            <Letter letter={letter} key={letter + resetKey} />
+          ))}
+        </div>
         <button onClick={() => setResetKey((key) => key + 1)} className="reset">
           RESET ALL
         </button>

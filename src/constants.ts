@@ -21,5 +21,6 @@ export const consonants = [
   'v',
   'w',
   'x',
+  'y',
   'z',
 ];
